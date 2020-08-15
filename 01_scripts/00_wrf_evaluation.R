@@ -179,7 +179,7 @@ pielke <- data.frame(
          sd(all_data_tc_cc$tc, na.rm = T),
          sd(all_data_tc_cc$mod.tc, na.rm = T),
          as.numeric(modStats(all_data_tc_cc, mod = "mod.tc", obs="tc", statistic = "RMSE")[1, 2]),
-         RMSE_ub(all_data_tc_cc, 'mod.tc', 'tc')),
+         RMSE_ub(all_dataa_tc_cc, 'mod.tc', 'tc')),
   rh = c(mean(all_data_rh_cc$rh, na.rm = T),
          mean(all_data_rh_cc$mod.rh, na.rm =T),
          sd(all_data_rh_cc$rh, na.rm = T),

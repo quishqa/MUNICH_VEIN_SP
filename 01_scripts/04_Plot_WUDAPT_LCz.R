@@ -16,12 +16,12 @@ rat <- levels(wu_geo_r)[[1]]
 rat <- rat %>% left_join(lcz, by = c("ID" = "lcz"))
 levels(wu_geo_r) <- rat
 
-pdf("03_output/test_figs/Fig03_wudapt_lcz_vert.pdf")
+pdf("03_output/test_figs/Fig_03_wudapt_lcz_vert.pdf")
 mapTheme <- rasterTheme(region = inferno(17, direction = -1))
 levelplot(wu_geo_r, ylab = "", xlab ="", par.setting=mapTheme)
 dev.off()
 
-pdf("03_output/paper_figs/Fig03_wudapt_lcz.pdf")
+pdf("03_output/paper_figs/Fig_03_wudapt_lcz.pdf")
 levelplot(wu_geo_r, ylab = "", xlab ="", par.setting=mapTheme, axes=T,
           colorkey = list(space ="bottom",height=1, width=1,
                           labels = list(cex = 0.7)))
