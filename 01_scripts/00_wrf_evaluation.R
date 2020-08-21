@@ -1,3 +1,6 @@
+# Evaluation of WRF meteorological simulation
+# using Emery (2001) benchmarks.
+
 library(openair)
 
 
@@ -71,6 +74,7 @@ all_data <- cbind(all_cet, all_wrf[2:6])
 
 
 # New wind direction MB and MAGE
+# Based in Revoredo et al (2015)
 
 WindDirectionD <- function(mod, obs){
   if (!is.na(obs)) {

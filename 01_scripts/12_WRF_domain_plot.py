@@ -1,3 +1,8 @@
+"""
+Script to plot three-nested WRF domains
+
+"""
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt

@@ -1,4 +1,8 @@
-  library(raster)
+# Plotting street links for each MUNICH domain
+# with building height retrieve from WUDAPT LCZ 
+# Based in Pellegati et al. (2019)
+
+library(raster)
   library(rgdal)
   library(plyr)
   library(viridis)

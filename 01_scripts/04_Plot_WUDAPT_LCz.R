@@ -1,3 +1,6 @@
+# Plotting WUDAPT LCZ for Sao Paulo Metropolitan Area
+# in a lat and lon projection.
+
 library(raster)
 library(viridis)
 library(rasterVis)

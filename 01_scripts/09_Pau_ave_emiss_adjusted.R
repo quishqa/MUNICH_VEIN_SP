@@ -1,5 +1,6 @@
-# NOX test
-# A new background test using San
+# Comparison between observation and MUNICH simulation scenario
+# with adjusted emissions (x2), for 
+# Paulista Avenue
 
 source("./01_scripts/06_Post_processor_functions.R")
 

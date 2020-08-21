@@ -1,3 +1,9 @@
+# Downloading observation from PInheiros and Cerqueira
+# Cesar air quality stations (AQS) for model evaluation.
+# And Downloading concentration from Ibirapuera AQS 
+# as MUNICH background concentration.
+
+#devtools::install_github("quishqa/qualR")
 library(qualR)
 
 user <- "xxxxxxxx"

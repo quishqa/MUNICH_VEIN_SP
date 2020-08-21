@@ -1,4 +1,5 @@
-# Pinheiros Control case
+# Comparison between observation and MUNICH simulation control 
+# case scenario  for Pinheiros neighborhood
 
 source("./01_scripts/06_Post_processor_functions.R")
 
