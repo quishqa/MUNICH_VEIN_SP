@@ -5,18 +5,28 @@
  ## Directories
  The information is organized in three folders:
  * 01_scripts: Scripts to create the Figures and maps of the paper, and to download the observations information from CETESB air quality stations (AQS).
+
  * 02_data:
-  * bg_obs: The background information for MUNICH and observation to comparison from AQS.
-  * emiss: Emission for Pinheiros neighbor and Paulista Avenue in &mu;g/km/h.
-  * rmsp_shp: Sao Paulo city shape file.
-  * tests: MUNICH results for different scenarios. `xN`, means the increment in all emissions by N. `bg_san` is an scenario where Santos AQS is used as background.
+   * bg_obs: The background information for MUNICH and observation to comparison from AQS.
+
+   * emiss: Emission for Pinheiros neighbor and Paulista Avenue in &mu;g/km/h.
+
+   * rmsp_shp: Sao Paulo city shape file.
+
+   * tests: MUNICH results for different scenarios. `xN`, means the increment in all emissions by N. `bg_san` is an scenario where Santos AQS is used as background.
   `nox_x4`, scenario where only NOX emission are incremented by 4.
-  * wrfinputs: WRF's domains.
-  * wrf_met_aqs_station: WRF model output and meteorological observation from AQS.
+
+   * wrfinputs: WRF's domains.
+
+   * wrf_met_aqs_station: WRF model output and meteorological observation from AQS.
+
  * 03_output:
-  * paper_figs: Figures in the paper.
-  * test_figs: Preliminary figures.
-  * text_files: tables and performance statistics.
+   * paper_figs: Figures in the paper.
+
+   * test_figs: Preliminary figures.
+
+   * text_files: tables and performance statistics.
+   
 
  ```bash
 .
